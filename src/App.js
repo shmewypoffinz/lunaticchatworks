@@ -10,12 +10,14 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyB4UN3nst1WLILNcLnjPmrfwAHcgpmo6zM",
+  authDomain: "lunaticchatroom.firebaseapp.com",
+  databaseURL: "https://lunaticchatroom-default-rtdb.firebaseio.com",
+  projectId: "lunaticchatroom",
+  storageBucket: "lunaticchatroom.appspot.com",
+  messagingSenderId: "1015861532385",
+  appId: "1:1015861532385:web:6622ca215026250972c9a0",
+  measurementId: "G-WHGGZNNLMW"
 });
 
 const MoonIcon = props => (
